@@ -92,7 +92,7 @@ mv /path/to/ralph ~/claude-plugins/
 
 - **Geoffrey Huntley** — [Original Ralph technique](https://ghuntley.com/ralph/)
 - **Boris Cherny** — [Official plugin](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) 
-- **Ralph** — This working reimplementation
+- **Ralph** — [This working reimplementation](https://github.com/dial481/ralph)
 
 ## License
 
