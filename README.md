@@ -37,7 +37,7 @@ claude --plugin-dir /path/to/ralph
 ```bash
 # Create marketplace
 mkdir -p ~/claude-plugins/.claude-plugin
-echo '{"name": "local", "owner": {"name": "You"}}' > ~/claude-plugins/.claude-plugin/marketplace.json
+echo '{"name":"local","owner":{"name":"You"},"plugins":[{"name":"ralph","description":"Autonomous iteration loops","version":"1.0.0","source":"./ralph","category":"development"}]}' > ~/claude-plugins/.claude-plugin/marketplace.json
 
 # Move plugin into marketplace
 mv /path/to/ralph ~/claude-plugins/
